@@ -29,6 +29,7 @@ class Song < ActiveRecord::Base
   end
 
   def note_contents
+    binding.pry
     self.note ? self.note.content : nil
   end
 
