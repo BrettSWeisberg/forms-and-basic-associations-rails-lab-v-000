@@ -32,6 +32,7 @@ class Song < ActiveRecord::Base
     self.notes.each do |note|
   #  binding.pry
   #  self.notes ? self.notes.content : nil
+end
   end
 
 end
