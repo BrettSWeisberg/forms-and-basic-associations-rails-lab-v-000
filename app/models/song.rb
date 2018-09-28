@@ -25,11 +25,7 @@ class Song < ActiveRecord::Base
       if note != ""
       @note = Note.create(content: note)
     #self.notes << @notes
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> 7f0ccdaf28d4961cca86de811b41601212c2c452
     self.notes.build(@note)
     end
     end
