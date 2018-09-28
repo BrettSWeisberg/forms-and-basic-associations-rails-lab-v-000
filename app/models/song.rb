@@ -29,9 +29,9 @@ class Song < ActiveRecord::Base
   end
 
   def note_contents
-    self.notes.each do |
-    binding.pry
-    self.notes ? self.notes.content : nil
+    self.notes.each do |note|
+  #  binding.pry
+  #  self.notes ? self.notes.content : nil
   end
 
 end
